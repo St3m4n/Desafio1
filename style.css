@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+html, body{
+    height: 100%;
+    background-color: #F3F5FC;
+
+}
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+.section1{
+    width: 65%;
+}
+.areaTexto{
+    width: 80%;
+    height: 70%;
+    background-color: #F3F5FC;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+    color: #0a3871;
+    border: none;
+    min-width: 250px;
+}
+.contenedorBotones{
+    text-align: center;
+    margin-top: 30px;
+}
+.botonEncriptar{
+    color: #FFFFFF;
+    background: #0A3871;
+    min-height: 40px;
+}
+.botonDesencriptar{
+    color: #0A3871;
+    background: #D8DFE8;
+    min-height: 40px;
+
+}
+.botonEncriptar , .botonDesencriptar{
+    width: 25%;
+    height: 60px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    border: 1px solid #0a3871
+
+}
+.section2{
+    width: 30%;
+    height: 90%;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedorMuneco{
+    width: 100%;
+    height: 60%;
+    padding-top: 150px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.contenedorH3{
+    width: 100%;
+    height: 20%;
+    text-align: center;    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1c5894;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.contenedorParrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.contenedorResultado{
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    color: black;
+}
+.textoResultado{
+    padding: 30px;
+    font-size: 40px;
+    color: #0A3871;
+}
+.contenedorCopiar{
+    width: 100%;
+    height: 20%;
+    text-align: center
+}
+.botonCopiar{
+    width: 30%;
+    height: 60px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    min-height: 35px;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    padding-top: 40px;
+    text-align: center;
+    display: inline-block;
+    
+
+}
+.ocultar{
+    display: none;
+}
